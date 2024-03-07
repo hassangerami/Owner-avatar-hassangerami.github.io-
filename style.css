@@ -1,0 +1,264 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Navbar */
+li {
+    list-style: none;
+}
+
+.connect a {
+    text-decoration: none;
+    color: #000;
+}
+
+.navbar {
+    margin: 5% 45%;
+    border-bottom: solid #000;
+}
+
+.logo img {
+    width: 100%;
+}
+
+@media screen and (min-width:851px) {
+    .fast-contact, .icon-media {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    .nav-logo > img {
+        width: 200px;
+    }
+    .fast-contact, .icon-media {
+        position: fixed;
+        bottom: 0px;
+        right: 10%;
+    }
+    .icon-media {
+        bottom: 5%;
+        right: 1%;
+    }
+    .btn-fast-contact {
+        padding: 5%;
+        width: 120%;
+        cursor: pointer;
+        font-size: 20px;
+        color: #fff;
+        border: #196aff;
+        background-color: #196aff;
+    }
+}
+
+
+@media only screen and (max-width: 550px) {
+    .navbar {
+        display: flex;
+        flex-direction: column;
+    }
+    .logo img {
+        width: 200%;
+    }
+    .fast-contact {
+        width: 80%;
+        margin-right: 10%;
+    }
+}
+
+/* about me */
+.programmer-svg {
+    display: flex;
+    justify-content: center;
+}
+
+.programmer-svg > img {
+    width: 60%;
+}
+
+.about-container {
+    display: flex;
+    justify-content: center;
+    height: 500px;
+}
+
+
+.about-container .site-about {
+    display: flex;
+    direction: rtl;
+    align-items: center;
+    line-height: 2;
+}
+
+.image-me {
+    margin: 0% 12%;
+}
+
+.image-me > img {
+    border-radius: 50px;
+    box-shadow: 0px 8px 16px 2px rgba(0, 0, 0, .2);
+}
+
+.content-about > p {
+    font-size: 25px;
+}
+
+@media only screen and (max-width: 850px) {
+    .site-about {
+        display: flex;
+        flex-direction: column;
+    }
+    .image-me > img {
+        width: 80%;
+        margin-right: 5%;
+    }
+    .content-about {
+        padding: 5%;
+        color: #101010;
+    }
+    .content-about > p {
+        font-size: 20px;
+    }
+    #pana > img {
+        opacity: 0.1;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .content-about > p {
+        font-size: 17px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    #pana > img {
+        opacity: 1;
+    }
+}
+
+
+/* Skills */
+.skills-container {
+    display: flex;
+    justify-content: center;
+}
+
+
+.skills-container .skill-me {
+    width: 80%;
+    padding: 2%;
+    box-shadow: 0px 8px 16px 3px rgba(49, 49, 49, 0.2);
+    background-color: ghostwhite;
+    margin-bottom: 5%;
+}
+
+.skill-me > h3 {
+    text-align: center;
+    font-size: 30px;
+    line-height: 5;
+}
+
+.skill-me > .programming-languages {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+
+
+.skill-me > .description {
+    display: flex;
+    justify-content: space-between;
+    width: 70%; 
+    margin: 0% auto;
+    margin-bottom: 5%;
+    line-height: 2;
+    padding: 5%;
+    border-radius: 10px;
+    box-shadow: 1px 2px 16px 2px rgba(46, 46, 46, 0.2);
+}
+
+.description > #firmware {
+    width: 25%;
+}
+
+@media only screen and (max-width: 850px) {
+    .skill-me {
+        margin-top: 10%;
+    }
+    .skill-me > h3 {
+        font-size: 20px;
+    }
+    .programming-languages > img {
+        width: 20%;
+    }
+    .skill-me > .description {
+        width: 80%;
+        margin-right: auto;
+    }
+    .description > .tech {
+        font-size: 90%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .skills-container .skill-me  {
+        width: 90%;
+    }
+    .skill-me > h3 {
+        font-size: 15px;
+    }
+    .programming-languages > img {
+        width: 15%;
+    }
+    .description {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+}
+
+@media only screen and (max-width: 372px) {
+    .skill-me > h3 {
+        font-size: 12px;
+    }
+}
+
+/* footer */
+.contact-svg > img {
+    width: 50%;
+}
+
+.contact-container {
+    line-height: 2;
+    height: 255px;
+}
+
+.contact-container > .icon-media {
+    text-align: center;
+}
+
+.contact-container .contact-me {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 5%;
+}
+
+.contact-me .connect {
+    line-height: 3;
+}
+
+.date-time {
+    text-align: center;
+    padding: 2%;
+    color: #fff;
+    background-color: #000;
+}
+
+@media only screen and (max-width: 440px) {
+    .contact-me > .connect {
+        font-size: 70%;
+    }   
+}
