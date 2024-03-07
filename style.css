@@ -40,7 +40,7 @@ li {
         right: 10%;
     }
     .icon-media {
-        bottom: 5%;
+        bottom: 7%;
         right: 1%;
     }
     .btn-fast-contact {
@@ -64,7 +64,7 @@ li {
         width: 200%;
     }
     .fast-contact {
-        width: 80%;
+        width: 100%;
         margin-right: 10%;
     }
 }
@@ -227,9 +227,6 @@ li {
 }
 
 /* footer */
-.contact-svg > img {
-    width: 50%;
-}
 
 .contact-container {
     line-height: 2;
