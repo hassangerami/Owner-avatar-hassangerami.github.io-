@@ -36,7 +36,7 @@ li {
     }
     .fast-contact, .icon-media {
         position: fixed;
-        bottom: 0px;
+        bottom: 0%;
         right: 10%;
     }
     .icon-media {
@@ -45,7 +45,7 @@ li {
     }
     .btn-fast-contact {
         padding: 5%;
-        width: 120%;
+        width: 130%;
         cursor: pointer;
         font-size: 20px;
         color: #fff;
